@@ -29,3 +29,8 @@
 -console.log()
 -console.table()---used in displaying for example an array in a table format
 --console.info()
+<!-- naming conventions in js -->
+-let firstName="Everlyn"  //camel case
+-let FirstName="Everlyn"   //pascal case
+-let first_name="Everlyn"   //snake case
+-let first-name="Everlyn"    //kebab case
