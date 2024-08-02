@@ -34,3 +34,11 @@
 -let FirstName="Everlyn"   //pascal case
 -let first_name="Everlyn"   //snake case
 -let first-name="Everlyn"    //kebab case
+<!-- identifiers -->
+--they are names given  to variables,classes and functions 
+<!-- rules for indifier names -->
+--names should start with a letter or an alphabet
+--the only special characters used are underscore(_) and dollar sign ($)
+--you cannot use the reserved words 
+--identifiers are case sensitive
+--they can be of any length
