@@ -14,3 +14,11 @@ let person={
 
 console.log(person.education.location.town)
 
+// array
+let fruits=["banana","mango","apple","watermelon","pawpaw"]
+
+console.log(fruits)  //[ 'banana', 'mango', 'apple', 'watermelon', 'pawpaw' ]
+console.table(fruits) //a table with two colums one for the index and the other for values
+fruits.forEach((fruit)=>{
+    console.log(fruit)
+})   //loops through and give the items in a list format
