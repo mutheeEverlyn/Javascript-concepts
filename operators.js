@@ -20,3 +20,11 @@ console.log(`${a *=b}`)  //a=a*b
 console.log(`${a /=b}`)  //a=a/b
 console.log(`${a %=b}`)  //a=a%b
 
+// comparison operator-- returns true or false
+console.log(a>b)
+console.log(a<b)
+console.log(a>=b)
+console.log(a<=b)
+console.log(a==b)
+console.log(a===b)
+console.log(a!=b)
