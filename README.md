@@ -24,7 +24,7 @@
 -used to declare constant values
 -cannot redeclare the variable nor reassign a value to the variable when using const
 
-<!-- displaying output in js -->
+<!-- displaying output in js -->  //to see the output in the console type 'node name_of_file' to the terminal
 -alert()
 -console.log()
 -console.table()---used in displaying for example an array in a table format
