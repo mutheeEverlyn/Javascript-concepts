@@ -13,3 +13,10 @@ console.log(`the value of ++a is ${++a}`);  //pre increment
 console.log(`the value of b-- is ${b--}`);  //post decrement
 console.log(`the value of --b is ${--b}`);  //pre decrement
 
+// assignment operator
+console.log(`${a +=b}`)  //a=a+b
+console.log(`${a -=b}`)  //a=a-b
+console.log(`${a *=b}`)  //a=a*b
+console.log(`${a /=b}`)  //a=a/b
+console.log(`${a %=b}`)  //a=a%b
+
