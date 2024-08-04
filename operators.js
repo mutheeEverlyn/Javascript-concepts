@@ -35,3 +35,9 @@ console.log(a<=b && c>=b) //AND
 console.log(c<=a || b>=c) //OR
 console.log(!(c<=a)) //NOT
 
+// string operator
+let fName="evah ";
+let sName="mso";
+console.log(fName + sName) //evah mso
+console.log(fName += sName) //evah mso
+
