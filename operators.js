@@ -1,6 +1,7 @@
 // arithmetic operators
 let a=10;
 let b=5;
+let c=20;
 
 console.log(`the value of ${a} + ${b} is ${a + b}`); //addition
 console.log(`the value of ${a} - ${b} is ${a - b}`); //subtraction
@@ -28,3 +29,9 @@ console.log(a<=b)
 console.log(a==b)
 console.log(a===b)
 console.log(a!=b)
+
+// logical operators-- returns true or false
+console.log(a<=b && c>=b) //AND
+console.log(c<=a || b>=c) //OR
+console.log(!(c<=a)) //NOT
+
