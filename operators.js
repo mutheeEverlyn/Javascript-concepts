@@ -41,3 +41,12 @@ let sName="mso";
 console.log(fName + sName) //evah mso
 console.log(fName += sName) //evah mso
 
+// bitwise operator
+a=10;
+c=20;
+console.log(a & c) //10=1010,20=10100, 1010 & 10100=0
+console.log(a | c)  //10=1010,20=10100 ,1010 | 10100=11110 =30
+console.log(~a)  //~10=-(10+1)=-11
+console.log(a ^ c)  //10=1010,20=10100 ,1010 ^ 10100=11110 =30
+console.log(a << c)  //10=1010,20=10100 ,1010 << 10100=101000000000000000000=10485760
+console.log(a >> c)  //10=1010,20=10100 ,1010 >> 10100=0
