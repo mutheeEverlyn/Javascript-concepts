@@ -43,3 +43,23 @@ else if(num2>num1){
     console.log(`${num1} is equal to ${num2}`)
 }
 
+//switch statement
+let grade='A'
+
+switch(grade){
+    case 'A':
+        console.log('upper class');
+        break;
+    case 'B':
+        console.log('second class upper');
+         break; 
+    case 'C':
+         console.log('second class lower');
+         break;  
+    case 'D':
+         console.log('pass');
+         break;   
+    default :
+        console.log('invalid grade') ;     
+}
+
