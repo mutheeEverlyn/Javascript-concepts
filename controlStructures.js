@@ -63,3 +63,8 @@ switch(grade){
         console.log('invalid grade') ;     
 }
 
+// ternary operator --if else statement
+let x=60;
+let result= x>50 ? 'greater' : 'lesser';
+console.log(result)
+
