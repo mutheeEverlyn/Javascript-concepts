@@ -68,3 +68,7 @@ let x=60;
 let result= x>50 ? 'greater' : 'lesser';
 console.log(result)
 
+// ternary operator --if statement (if the condition is true the you get statement eg equal in the example below but if false you get false as the output)
+let y=20;
+let num= y == 20 && 'equal';
+console.log(num)
