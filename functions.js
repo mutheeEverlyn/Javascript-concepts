@@ -13,3 +13,17 @@ function hello(name){
 }
 hello('evah');
 
+//2.arrow function
+
+//function declaration
+let sayHi=()=>{
+    console.log('hello, how are you!')
+}
+//function call
+sayHi()
+
+//arrow function with a parameter
+let marks=(grade)=>{
+    console.log(`you got a grade ${grade}`)
+}
+marks('A')
