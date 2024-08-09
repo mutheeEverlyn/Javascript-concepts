@@ -27,3 +27,15 @@ let marks=(grade)=>{
     console.log(`you got a grade ${grade}`)
 }
 marks('A')
+
+//3.function with a return statement
+function add(a,b){
+    return a+b
+}
+console.log(add(10,2))
+
+let sum=(num1,num2)=>{
+return num1+num2;
+}
+console.log(sum(1,4))
+
