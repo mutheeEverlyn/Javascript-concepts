@@ -48,5 +48,10 @@ console.log(sum(1,4))
     console.log("good evening my friend");
 })();
 
+//5.anonymous function :function without a name
+let result=function(a,b){
+    return a*b;
+    }
+    console.log(result(3,2))
 
 
