@@ -71,4 +71,15 @@ for(let key in person){
         num--;
     }
     
-  
+    //do..while loop :loops through items before checking then condition first
+    // initialization;
+    // do{
+    //     code to be executed
+    //     increment/decrement
+    // }while(condition)
+    
+    let numbers=0;
+    do{
+        console.log(numbers);
+        numbers++;
+    }while(numbers<=10) 
