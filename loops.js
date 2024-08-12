@@ -40,4 +40,16 @@ for(let key in person){
     console.log(person[key])
     }
     
-   
+    //for loop:loops through items until the condition is false
+    // for(initialization;condition;increment/decrement){
+    //     code to be executed
+    // }
+    
+    for(let num=0;num<=10;num++){
+        console.log(num)
+    }
+    for(let num=10;num>=0;num--){
+        console.log(num)
+    }
+    
+    
