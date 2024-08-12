@@ -52,4 +52,23 @@ for(let key in person){
         console.log(num)
     }
     
+   //while loop:executes a block of code by first checking the condition
+    //initialization
+    //while(condition){
+    // code to be executed
+    //incerement/decrement
+    //}
     
+    let num=0;
+    while(num<=10){
+        console.log(num);
+        num++;
+    }
+    
+     num=10;
+    while(num>=0){
+        console.log(num);
+        num--;
+    }
+    
+  
