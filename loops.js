@@ -29,3 +29,8 @@ countries.forEach((country)=>{
     console.log(country)
 })
 
+//for ... of loop: used to loop over an array
+for(let animal of animals){
+    console.log(animal)
+}
+
