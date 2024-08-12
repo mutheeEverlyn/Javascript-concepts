@@ -34,3 +34,10 @@ for(let animal of animals){
     console.log(animal)
 }
 
+//for ... in loop: used to loop over an object
+for(let key in person){
+    console.log(key)
+    console.log(person[key])
+    }
+    
+   
