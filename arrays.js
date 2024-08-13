@@ -12,3 +12,5 @@ let fruits=new Array('mango','apple','pawpaw')
 //1.length
 console.log(snacks.length)
 
+//2.constructor
+console.log(snacks.constructor)
