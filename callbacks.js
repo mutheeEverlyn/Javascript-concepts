@@ -13,3 +13,15 @@ volumeOfCuboid(1,4,6,areaOfRectangle);
 }
 calculate()
 
+//arrow func
+const greet=()=>{
+    const sayHi=(name,greetings)=>{
+        console.log(`hello ${name}`)
+        greetings();
+    }
+    const hello=()=>{
+        console.log('how are you !')
+    }
+    sayHi('Evah',hello)
+}
+greet()
