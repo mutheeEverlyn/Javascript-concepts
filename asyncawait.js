@@ -9,3 +9,14 @@ async function greet(){
         console.log(error)
     })
 }
+//arrow func syntaxt
+const responseData=async()=>{
+    return await fetch('https://jsonplaceholder.typicode.com/posts')
+    .then((res)=>{res.json})
+    .then((data)=>{
+        console.log(data)
+    })
+    .catch((error)=>{
+        console.log(error)
+    })
+    }
