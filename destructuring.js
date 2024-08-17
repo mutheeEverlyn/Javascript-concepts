@@ -15,4 +15,22 @@ let people=
     console.log(age)
     console.log(country)
     console.log(city)
-   
+    
+    let fruits=[
+        {
+            fruit:'mango',
+            rating:3
+        },
+        {
+            fruit:'apple',
+            rating:5
+        },
+        {
+            fruit:'pineapple',
+            rating:4
+        }
+    ]
+    
+    let [{fruit,rating}]=fruits
+    console.log(fruit)
+    console.log(rating)
