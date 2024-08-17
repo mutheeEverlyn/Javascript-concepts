@@ -10,3 +10,9 @@ let people=
     }
 
 
+    let{name,age,address:{country,city}}=people
+    console.log(name)
+    console.log(age)
+    console.log(country)
+    console.log(city)
+   
