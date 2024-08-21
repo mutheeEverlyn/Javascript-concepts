@@ -40,3 +40,8 @@ let fruits=[
 for(let fruit=0;fruit<fruits.length;fruit++){
     console.log(fruits[fruit])
 }
+
+//2.forEach loop
+fruits.forEach((fruit)=>{
+    console.log(fruit)
+})
