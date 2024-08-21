@@ -35,3 +35,8 @@ let fruits=[
         ratings:4
     }
 ]
+
+//1.for loop
+for(let fruit=0;fruit<fruits.length;fruit++){
+    console.log(fruits[fruit])
+}
