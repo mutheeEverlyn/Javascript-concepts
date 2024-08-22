@@ -62,3 +62,9 @@ console.log(name[0]) //e
 name[1]="l";  //imposiible --you cannot change the values in the string you can only read
 console.log(name)
 
+//using charAt
+console.log(name.charAt[0])
+//trim function --removes any excess space before and after the string
+let myName= " Grace mumbi "
+myName.trim()
+console.log(myName)
