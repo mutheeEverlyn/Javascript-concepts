@@ -50,3 +50,15 @@ console.log(~a)  //~10=-(10+1)=-11
 console.log(a ^ c)  //10=1010,20=10100 ,1010 ^ 10100=11110 =30
 console.log(a << c)  //10=1010,20=10100 ,1010 << 10100=101000000000000000000=10485760
 console.log(a >> c)  //10=1010,20=10100 ,1010 >> 10100=0
+
+//generating random numbers
+console.log(Math.random()) //0.33185008259217597
+console.log(Math.random()*10)//gets a random number between 0-9 but in decimal
+console.log(Math.floor(Math.random()* 100)) //gets a random number between 0-99 in whole numbers by rounding down
+
+// how to get a single character in a string
+let name="evah mso"
+console.log(name[0]) //e
+name[1]="l";  //imposiible --you cannot change the values in the string you can only read
+console.log(name)
+
