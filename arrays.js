@@ -18,3 +18,4 @@ console.log(snacks.constructor)
 //nested array
 let numbers=[[1,2,3],[4,5],[6,7],[8,[9,0]]]
 console.log(numbers[0][2]) //3
+console.log(numbers[3][1][1]) //0
