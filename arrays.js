@@ -14,3 +14,7 @@ console.log(snacks.length)
 
 //2.constructor
 console.log(snacks.constructor)
+
+//nested array
+let numbers=[[1,2,3],[4,5],[6,7],[8,[9,0]]]
+console.log(numbers[0][2]) //3
