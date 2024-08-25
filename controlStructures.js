@@ -75,3 +75,5 @@ console.log(num)
 
 //nested ternary operator--if else if else statement
 let num3=-8;
+let answer=num3>0? "greater than 0" :num3<0 ?"less than 0":"equal to zero"
+console.log(answer)
