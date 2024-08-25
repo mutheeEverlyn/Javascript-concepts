@@ -72,3 +72,6 @@ console.log(result)
 let y=20;
 let num= y == 20 && 'equal';
 console.log(num)
+
+//nested ternary operator--if else if else statement
+let num3=-8;
