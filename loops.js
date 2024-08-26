@@ -92,4 +92,12 @@ forArray.push(i)
  }     
  console.log(forArray)
 
- 
+ //2.while loop
+ let whileArray=[]
+ let a=0
+ while(a<8){
+    whileArray.push(a)
+    a++
+ }
+ console.log(whileArray)
+
