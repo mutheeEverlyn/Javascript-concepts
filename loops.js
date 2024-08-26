@@ -83,3 +83,13 @@ for(let key in person){
         console.log(numbers);
         numbers++;
     }while(numbers<=10) 
+
+ //pushing numbers into an empty array using loops
+ //1.for loop
+ let forArray=[]
+ for(let i=0;i<10;i++) {
+forArray.push(i)
+ }     
+ console.log(forArray)
+
+ 
