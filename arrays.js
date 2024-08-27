@@ -25,3 +25,7 @@ let Fruits=["mango","pawpaw","apple","watermelon","orange","grapes"]
 Fruits=Fruits.sort()
 console.log(Fruits)
 
+//sorting arrays in reverse manner using method chaining
+Fruits=Fruits.sort().reverse();
+console.log(Fruits)
+
