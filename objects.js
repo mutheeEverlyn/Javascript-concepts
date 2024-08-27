@@ -45,3 +45,12 @@ for(let fruit=0;fruit<fruits.length;fruit++){
 fruits.forEach((fruit)=>{
     console.log(fruit)
 })
+
+//object keys
+for(let key in person){
+    console.log(key)
+    console.log(person[key])
+}
+//object getOwnPropertyNames
+//object entries
+
