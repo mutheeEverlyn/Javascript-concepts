@@ -40,3 +40,11 @@ function sortedNumbers(a,b){
   return a-b;
 }
 
+//sorting an array of numbers in descending order
+function sortedNumbersDESC(a,b){
+    return b-a
+}
+luckyNummbers.sort(sortedNumbersDESC);
+luckyNummbers.forEach((num)=>{
+    console.log(num)
+})
