@@ -29,3 +29,14 @@ console.log(Fruits)
 Fruits=Fruits.sort().reverse();
 console.log(Fruits)
 
+//sorting an array of numbers
+let luckyNummbers=[12,20,42,6,8,15];
+luckyNummbers.sort(sortedNumbers)
+
+luckyNummbers.forEach((number)=>{
+    console.log(number)
+})
+function sortedNumbers(a,b){
+  return a-b;
+}
+
