@@ -54,3 +54,15 @@ for(let key in person){
 //object getOwnPropertyNames
 //object entries
 
+//freezing an object to make it a constant
+let student={
+    name:"evah mumbi",
+    age:18,
+    course:"teacher"
+}
+
+Object.freeze(student);
+
+student.name='annie'
+console.log(student.name) //name will remain evah mumbi since the object is frozen and cannot be changed
+
