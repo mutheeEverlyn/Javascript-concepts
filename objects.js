@@ -66,3 +66,9 @@ Object.freeze(student);
 student.name='annie'
 console.log(student.name) //name will remain evah mumbi since the object is frozen and cannot be changed
 
+//how to manipulate objects with keys having a space bettween them
+let movies={
+    "movie one":"see",
+    "movie two":"game of thrones",
+    "movie three":"manifest"
+}
