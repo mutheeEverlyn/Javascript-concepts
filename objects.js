@@ -72,3 +72,8 @@ let movies={
     "movie two":"game of thrones",
     "movie three":"manifest"
 }
+
+//updating the object
+movies["movie one"]="vikings"
+console.log(movies)
+
