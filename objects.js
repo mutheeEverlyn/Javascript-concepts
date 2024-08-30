@@ -77,3 +77,10 @@ let movies={
 movies["movie one"]="vikings"
 console.log(movies)
 
+//adding a new key and value
+movies["movie four"]="the boys"
+console.log(movies)
+
+//deleting the key and value
+delete movies["movie two"]
+console.log(movies)
