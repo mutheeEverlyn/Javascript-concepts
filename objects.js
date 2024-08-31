@@ -85,3 +85,15 @@ console.log(movies)
 delete movies["movie two"]
 console.log(movies)
 
+//objects with function
+let greeting={
+    sayHi:function(){
+        console.log("hello there")
+    },
+    howOld:function(){
+        console.log('how old are you?')
+    }
+}
+greeting.sayHi();
+greeting.howOld();
+
