@@ -84,3 +84,4 @@ console.log(movies)
 //deleting the key and value
 delete movies["movie two"]
 console.log(movies)
+
