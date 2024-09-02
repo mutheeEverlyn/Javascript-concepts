@@ -107,3 +107,13 @@ let Student={
 }
 Student.registered();
 
+//or
+let Stude={
+    name:"evah mso",
+    age:22,
+    registered:function(){
+        console.log(`hello ${Stude.name} you are ${Stude.age} years old and you have registered for the semester`)
+    }
+}
+Stude.registered();
+
