@@ -97,3 +97,13 @@ let greeting={
 greeting.sayHi();
 greeting.howOld();
 
+//this key word to access object properties
+let Student={
+    name:"evah mso",
+    age:22,
+    registered:function(){
+        console.log(`hello ${this.name} you are ${this.age} years old and you have registered for the semester`)
+    }
+}
+Student.registered();
+
