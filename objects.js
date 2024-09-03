@@ -117,3 +117,12 @@ let Stude={
 }
 Stude.registered();
 
+//Map : object that holds key-value pairs of any data type
+const store=new Map([
+    ["socks",50],
+    ["jamsuit",1500],
+    ["palazo",500],
+    ["puff jacket",2500]
+])
+let shoppingCart=0;
+
