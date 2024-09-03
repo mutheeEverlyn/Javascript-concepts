@@ -126,3 +126,9 @@ const store=new Map([
 ])
 let shoppingCart=0;
 
+//Map builtin functions
+//1.get
+shoppingCart +=store.get("socks");
+shoppingCart +=store.get("palazo");
+console.log(shoppingCart);
+
