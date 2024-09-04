@@ -136,3 +136,8 @@ console.log(shoppingCart);
 store.set("shoe",3500);
 console.log(store)
 
+//3.forEach
+store.forEach((key,value)=>{
+    console.log(`${key} : ${value}`)
+})
+
