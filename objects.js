@@ -132,3 +132,7 @@ shoppingCart +=store.get("socks");
 shoppingCart +=store.get("palazo");
 console.log(shoppingCart);
 
+//2.set
+store.set("shoe",3500);
+console.log(store)
+
