@@ -145,3 +145,6 @@ store.forEach((key,value)=>{
 store.delete("shoe")
 console.log(store);
 
+//5.has
+console.log(store.has("apple"));
+
