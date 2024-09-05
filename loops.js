@@ -101,3 +101,11 @@ forArray.push(i)
  }
  console.log(whileArray)
 
+ //for loop to add even numbers to an empty array
+ let even=[]
+ for(let e=0;e<10;e+=2){
+     even.push(e)
+ }
+ console.log(even)
+ 
+   
