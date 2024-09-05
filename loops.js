@@ -115,4 +115,13 @@ forArray.push(i)
    }
    console.log(odd)
  
+ //while loop to add even numbers to an empty array in a reverse manner
+ let Even=[]
+ let E=10;
+ while(E>0){
+  Even.push(E);
+ E-=2;
+ }
+ console.log(Even)
  
+  
