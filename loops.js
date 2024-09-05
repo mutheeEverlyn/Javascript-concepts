@@ -124,4 +124,13 @@ forArray.push(i)
  }
  console.log(Even)
  
+  //while loop to add odd numbers to an empty array in a reverse manner
+  let Odd=[]
+  let O=9;
+  while(O>0){
+     Odd.push(O)
+     O-=2
+  }
+  console.log(Odd)
+ 
   
