@@ -141,3 +141,7 @@ store.forEach((key,value)=>{
     console.log(`${key} : ${value}`)
 })
 
+//4.delete
+store.delete("shoe")
+console.log(store);
+
