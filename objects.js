@@ -148,3 +148,5 @@ console.log(store);
 //5.has
 console.log(store.has("apple"));
 
+//6.size
+console.log(store.size);
