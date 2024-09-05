@@ -108,4 +108,11 @@ forArray.push(i)
  }
  console.log(even)
  
-   
+   //for loop to add odd numbers to an empty array
+   let odd=[]
+   for(let o=1;o<10;o+=2){
+     odd.push(o)
+   }
+   console.log(odd)
+ 
+ 
