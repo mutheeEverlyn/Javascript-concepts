@@ -133,4 +133,11 @@ forArray.push(i)
   }
   console.log(Odd)
  
-  
+  //break statement :used to break out of the loop entirely
+  for(let i=1;i<=20;i++){
+    if(i==10){
+        break;
+    }
+    console.log(i)
+}
+ 
