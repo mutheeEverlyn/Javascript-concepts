@@ -140,4 +140,10 @@ forArray.push(i)
     }
     console.log(i)
 }
- 
+ //continue statement :used skip an iteration of a loop
+ for(let j=1;j<=20;j++){
+    if(j==13){
+        continue;
+    }
+    console.log(j)
+ }
