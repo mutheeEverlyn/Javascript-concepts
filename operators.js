@@ -63,8 +63,15 @@ name[1]="l";  //imposiible --you cannot change the values in the string you can 
 console.log(name)
 
 //using charAt
-console.log(name.charAt[0])
+console.log(name.charAt(0))
+
 //trim function --removes any excess space before and after the string
 let myName= " Grace mumbi "
 myName.trim()
 console.log(myName)
+
+//slice function: used to get part of a string and make it a new string
+let fullName="Evah Mso"
+let firstName=fullName.slice(0,4) //used when you know the index of the character you want to get
+console.log(firstName);
+
