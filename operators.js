@@ -75,3 +75,6 @@ let fullName="Evah Mso"
 let firstName=fullName.slice(0,4) //used when you know the index of the character you want to get
 console.log(firstName);
 
+let lastName=fullName.slice(4).trim() //used when you know the index of the character you want to get
+console.log(lastName);
+
