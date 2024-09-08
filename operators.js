@@ -80,3 +80,7 @@ console.log(lastName);
 
 let first_name=fullName.slice(0,fullName.indexOf(" "))//used when you dont know the index
 console.log(first_name);
+
+let last_name=fullName.slice(fullName.indexOf(" ")).trim() //used when you dont know the index
+console.log(last_name);
+
