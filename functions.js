@@ -40,13 +40,13 @@ return num1+num2;
 console.log(sum(1,4))
 
 //4.immediately invoked function expression(IIFE) :does not required a function call
-(function name() {
-    console.log("good morning");
-})();
+// (function name() {
+//     console.log("good morning");
+// })();
 
-(() => { 
-    console.log("good evening my friend");
-})();
+// (() => { 
+//     console.log("good evening my friend");
+// })();
 
 //5.anonymous function :function without a name
 let result=function(a,b){
@@ -54,4 +54,8 @@ let result=function(a,b){
     }
     console.log(result(3,2))
 
-
+//arrow function to switch values of numbers
+let reversedNumbers=(num1,num2)=>{
+    return [num1,num2]=[num2,num1]
+}
+console.log(reversedNumbers(2,3))
