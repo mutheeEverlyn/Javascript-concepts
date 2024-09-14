@@ -63,3 +63,5 @@ class Rabbit extends Animal{
 const bird=new Bird();
 const fish=new Fish();
 const rabbit=new Rabbit();
+
+console.log(bird.alive);
