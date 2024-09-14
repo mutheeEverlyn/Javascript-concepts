@@ -65,3 +65,4 @@ const fish=new Fish();
 const rabbit=new Rabbit();
 
 console.log(bird.alive);
+bird.fly();
