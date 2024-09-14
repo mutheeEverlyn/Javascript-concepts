@@ -66,3 +66,6 @@ const rabbit=new Rabbit();
 
 console.log(bird.alive);
 bird.fly();
+bird.sleep("hawk");
+bird.type("hawk")
+
