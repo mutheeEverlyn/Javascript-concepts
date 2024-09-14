@@ -42,3 +42,9 @@ console.log(`this is a ${name}`);
 }
 }
 
+class Bird extends Animal{
+    fly(){
+        console.log('the bird flies')
+    }
+}
+
