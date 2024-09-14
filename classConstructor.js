@@ -54,3 +54,9 @@ class Fish extends Animal{
     }
 }
 
+class Rabbit extends Animal{
+    walks(){
+        console.log('the rabbit walks')
+    }
+}
+
