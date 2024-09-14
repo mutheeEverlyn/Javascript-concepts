@@ -48,3 +48,9 @@ class Bird extends Animal{
     }
 }
 
+class Fish extends Animal{
+    swim(){
+        console.log('the fish swims')
+    }
+}
+
