@@ -31,3 +31,14 @@ const student1=new Student("emily",22,3.2);
 console.log(student1)
 student1.details()
 
+//class inheritance
+class Animal{
+alive=true;
+sleep(name){
+    console.log(`the ${name} sleeps`);
+}
+type(name){
+console.log(`this is a ${name}`);
+}
+}
+
