@@ -69,3 +69,21 @@ bird.fly();
 bird.sleep("hawk");
 bird.type("hawk")
 
+//supper keyword: used to refer to a construction in the parent class during inheritance
+class Person{
+    constructor(name,age){
+        this.name=name;
+        this.age=age;
+    }
+}
+
+class Comrade extends Person{
+    constructor(name,age,course){
+        super(name,age);
+        this.course=course;
+    }
+}
+
+const comrade=new Comrade("evah",22,"nursing");
+console.log(comrade)
+
