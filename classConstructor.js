@@ -87,3 +87,13 @@ class Comrade extends Person{
 const comrade=new Comrade("evah",22,"nursing");
 console.log(comrade)
 
+//passing an object as an argument
+function info(person){
+    console.log(person.name);
+    console.log(person.age);
+    console.log(person.course)
+    }
+    
+    info(comrade)
+    
+   
