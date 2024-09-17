@@ -96,4 +96,15 @@ function info(person){
     
     info(comrade)
     
-   
+    //array of objects
+    const comrade1=new Comrade("evah",22,"nursing");
+    const comrade2=new Comrade("Grace",14,"teaching");
+    const comrade3=new Comrade("Paul",20,"doctor");
+    const comrade4=new Comrade("kamaa",28,"escort");
+    
+    const myComrades=[comrade1,comrade2,comrade3,comrade4];
+    console.log(myComrades[1].age)
+    console.log(myComrades[1].name)
+    console.log(myComrades[1].course)
+    
+    
