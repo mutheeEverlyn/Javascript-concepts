@@ -107,4 +107,21 @@ function info(person){
     console.log(myComrades[1].name)
     console.log(myComrades[1].course)
     
+    //anonymous objects
+    class Vehicle{
+        constructor(model,make,color){
+            this.make=make;
+            this.model=model;
+            this.color=color
+        }
+    }
     
+    const vehicles=[new Vehicle("benz","toyota","white"),
+    new Vehicle("harrier","toyota","black"),
+    new Vehicle("prado","ford","red"),
+    new Vehicle("vitz","isuzu","gold")]
+    
+    console.log(vehicles[0])
+    console.log(vehicles[1])
+    console.log(vehicles[2])
+    console.log(vehicles[3])
