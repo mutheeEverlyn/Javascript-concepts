@@ -1,0 +1,18 @@
+#rectangle{
+    border: 5px solid blue;
+}
+
+#triangle{
+    border: 5px solid brown;
+}
+#circle{
+    border: 5px solid red;
+}
+#squares{
+    border: 5px solid yellow;
+  
+}
+#name{
+    border: 5px solid purple;
+   
+}
